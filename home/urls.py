@@ -18,7 +18,7 @@ urlpatterns = [
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     # path('', home),
     #            path('student/', post_student),
-             #  path('get-book/', get_book),
+             path('get-book/', get_book),
 ]
 
 if settings.DEBUG:
